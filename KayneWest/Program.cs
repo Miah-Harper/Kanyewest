@@ -8,7 +8,8 @@ namespace KayneWest
     {
         static void Main(string[] args)
         {
-            var client = new HttpClient();
+            var client = new HttpClient(); //provides a base class for sending HTTP requests and receiving
+                                           //HTTP responses from a resource identified by a URL.
             var quote = new findQuote(client);
 
             
